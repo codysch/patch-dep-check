@@ -1,0 +1,8 @@
+[workspace]
+members = [
+	'a1',
+	'b2',
+]
+
+[patch.crates-io]
+rand = { git = "https://github.com/rust-random/rand", package = 'rand' }
